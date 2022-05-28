@@ -23,7 +23,7 @@ public class Rectangle {
 		}
 		else if (per1<per2)
 		{
-			x += 1;
+			x -= 1;
 		}
 		return x;
 	}
