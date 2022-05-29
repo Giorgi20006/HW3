@@ -10,12 +10,12 @@ public class Rectangle {
 		this.width = width;
 	}
 	
-	protected int getPerimeter() {
+	int getPerimeter() {
 		int perimeter = (length+width)*2;
 		return perimeter;
 	}
 	
-	protected int getArea() {
+	int getArea() {
 		int area = length*width;
 		return area;
 	}
